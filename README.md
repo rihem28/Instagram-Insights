@@ -11,9 +11,7 @@ This project analyzes Instagram post performance using Business Intelligence tec
 - Predict engagement rate using machine learning
 
 ## Tools & Technologies
-- Python (Pandas, NumPy, Matplotlib, Scikit-learn)
-- Jupyter Notebook
-- Kaggle Dataset
+- Python (Pandas, NumPy)
 - Power BI
 
 ## Dataset
