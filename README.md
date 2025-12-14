@@ -1,4 +1,4 @@
-# Beyond Likes: Instagram Engagement Analytics
+# Instagram Insights: From BI to predictive Intelligence 
 
 ## Project Overview
 This project analyzes Instagram post performance using Business Intelligence techniques and machine learning. The dataset contains 30,000 Instagram posts collected over 12 months.
