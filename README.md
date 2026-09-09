@@ -129,9 +129,3 @@ Four interconnected report pages:
 
 ---
 
-## Authors
-Aisha Hariz
-Malek Omri
-Rihem Abdelmoumen
-
----
