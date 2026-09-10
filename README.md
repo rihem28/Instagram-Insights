@@ -115,23 +115,6 @@ The actual-vs-predicted scatter plot shows most posts tightly clustered along th
 
 ---
 
-## 📁 Repository Structure
-
-```
-├── data/
-│   ├── staging/          # Raw ingested data
-│   └── processed/        # Cleaned data + star schema CSVs
-├── etl/
-│   ├── Extract.py
-│   ├── transform.py
-│   └── Load.py
-├── models/                # ML training scripts / notebooks
-├── dashboards/             # Power BI .pbix files
-└── README.md
-```
-
----
-
 ## 🚀 How to Run
 
 1. Place raw data in `data/staging/Instagram_Analytics.csv`
