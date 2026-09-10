@@ -93,7 +93,7 @@ Four interconnected report pages:
 The 6 traffic sources (Reels Feed, Home Feed, Profile, External, Hashtags, Explore) are almost perfectly balanced, each contributing roughly 16–17% of total engagement indicating no single aquisition channel dominates, growth isn't overly dependent on one acquisition source — a diversified but non-optimized funnel without deeper testing.
 
 -Media Type Performance:
-Average engagement rate varies noticeably across media types (Video, Reel, Carousel, Photo), with Reels and carousels showing the strongest average engagement relative to Photo posts — consistent with the platform-wide trend of algorithmic favoring of video content.
+Average engagement rate varies noticeably across media types (Video, Reel, Carousel, Photo), with Reels and videos showing the strongest average engagement relative to Photo posts — consistent with the platform-wide trend of algorithmic favoring of video content.
 
 -Engagement Trend:
 Monthly total engagement fluctuates in a relatively narrow band across the year, without one runaway seasonal spike — suggesting fairly stable, non-seasonal posting performance.
