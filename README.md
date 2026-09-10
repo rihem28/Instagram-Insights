@@ -89,16 +89,28 @@ Four interconnected report pages:
 
 ## 🔍 Key Insights
 
-- Traffic sources are fairly evenly distributed (each contributing **~16–17%** of total engagement), indicating no single acquisition channel dominates — a diversified but non-optimized funnel.
-- Certain media types and content categories consistently outperform on average engagement rate, pointing to clear content-format opportunities.
-- The predictive model successfully separates posts into performance tiers, enabling **proactive** identification of likely low-performing content before publication.
+-Traffic Source Distribution:
+The 6 traffic sources (Reels Feed, Home Feed, Profile, External, Hashtags, Explore) are almost perfectly balanced, each contributing roughly 16–17% of total engagement indicating no single aquisition channel dominates, growth isn't overly dependent on one acquisition source — a diversified but non-optimized funnel without deeper testing.
+
+-Media Type Performance:
+Average engagement rate varies noticeably across media types (Video, Reel, Carousel, Photo), with Reels and carousels showing the strongest average engagement relative to Photo posts — consistent with the platform-wide trend of algorithmic favoring of video content.
+
+-Engagement Trend:
+Monthly total engagement fluctuates in a relatively narrow band across the year, without one runaway seasonal spike — suggesting fairly stable, non-seasonal posting performance.
+
+-Engagement Growth Rate:
+Shows high month-to-month volatility (swinging between roughly 0 and 2), indicating engagement momentum is inconsistent rather than steadily compounding.
+
+-Predictive Model Results:
+The predictive model successfully separates posts into performance tiers, enabling **proactive** identification of likely low-performing content before publication.
+The actual-vs-predicted scatter plot shows most posts tightly clustered along the diagonal (strong correlation), with a small number of outlier posts where predicted engagement diverges sharply from actual — useful to mention as a model limitation (a few high-variance posts pull residuals up). The prediction detail table also shows the model tends to predict slightly higher than actual for lower-performing posts — worth noting as a "conservative-risk" bias if asked about model evaluation.
 
 ---
 
 ## 💡 Business Recommendations
 
 - Prioritize content formats and categories shown to drive higher average engagement (e.g., Reels, Carousel).
-- Concentrate distribution efforts on the highest-converting traffic sources (Hashtags, Reels Feed) while testing improvements on underperforming channels.
+- Recommend A/B testing incremental budget/content shifts toward one channel at a time to identify which one has untapped growth potential and concentrate distribution efforts on the highest-converting traffic sources rather than treating all 6 as equally worth future investment, while testing improvements on underperforming channels.
 - Integrate the engagement prediction model into the content workflow to flag draft posts likely to underperform, allowing pre-publication adjustments.
 
 ---
