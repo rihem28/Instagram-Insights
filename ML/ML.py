@@ -11,6 +11,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.cluster import KMeans
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
+from sklearn.metrics import silhouette_score
 
 # ===============================
 # 1. LOAD DATA
@@ -117,6 +118,12 @@ cluster_data_scaled = scaler.fit_transform(cluster_data)
 # K-Means clustering
 kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
 df["cluster"] = kmeans.fit_predict(cluster_data_scaled)
+
+sil = silhouette_score(cluster_data_scaled, df["cluster"], sample_size=10000, random_state=42)
+print("Silhouette Score:", sil)
+
+cluster_means_report = df.groupby("cluster")["engagement_rate"].agg(["mean", "count"])
+print(cluster_means_report)
 
 # ===============================
 # 5. LABEL CLUSTERS
